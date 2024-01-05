@@ -1,65 +1,53 @@
-<!DOCTYPE html>
-<html>
+# App de Análise de Ações
 
-<head>
-    <title>App de Análise de Ações</title>
-</head>
+Este é um aplicativo desenvolvido em Streamlit para análise de ações. Ele fornece uma interface simples para visualizar gráficos históricos de preços de ações, bem como permitir que os usuários deixem comentários sobre a ação escolhida. Além disso, oferece a funcionalidade de exportar os dados da ação para um arquivo CSV.
 
-<body>
+## Como Usar o App
 
-    <h1>App de Análise de Ações</h1>
-    <p>Este é um aplicativo desenvolvido em Streamlit para análise de ações. Ele fornece uma interface simples para
-        visualizar gráficos históricos de preços de ações, bem como permitir que os usuários deixem comentários sobre a
-        ação escolhida. Além disso, oferece a funcionalidade de exportar os dados da ação para um arquivo CSV.</p>
+### Escolha uma Ação:
 
-    <h2>Como Usar o App</h2>
+No painel lateral, você pode selecionar uma ação entre diversas opções clicáveis, incluindo Microsoft Corporation, Google, Amazon, Tesla, e outras.
 
-    <h3>Escolha uma Ação:</h3>
-    <p>No painel lateral, você pode selecionar uma ação entre diversas opções clicáveis, incluindo Microsoft Corporation,
-        Google, Amazon, Tesla, e outras.</p>
+### Visualize o Gráfico e Tabela:
 
-    <h3>Visualize o Gráfico e Tabela:</h3>
-    <p>Após escolher uma ação, o app exibirá um gráfico interativo com o histórico de preços de fechamento da ação. Uma
-        tabela com estatísticas descritivas também é apresentada.</p>
+Após escolher uma ação, o app exibirá um gráfico interativo com o histórico de preços de fechamento da ação. Uma tabela com estatísticas descritivas também é apresentada.
 
-    <h3>Exporte Dados para CSV:</h3>
-    <p>Logo abaixo do gráfico, você encontrará um botão "Exportar para CSV". Clique nesse botão para baixar os dados da
-        ação em formato CSV.</p>
+### Exporte Dados para CSV:
 
-    <h3>Deixe um Comentário:</h3>
-    <p>Abaixo da tabela, você pode inserir seu nome de usuário e deixar um comentário sobre a ação. Clique em "Salvar
-        Comentário" para registrar sua opinião.</p>
+Logo abaixo do gráfico, você encontrará um botão "Exportar para CSV". Clique nesse botão para baixar os dados da ação em formato CSV.
 
-    <h3>Visualize e Exclua Comentários:</h3>
-    <p>Abaixo do formulário de comentário, você pode visualizar os comentários existentes ordenados por timestamp. Há
-        também um botão "Excluir Comentários" para limpar todos os comentários.</p>
+### Deixe um Comentário:
 
-    <h2>Tecnologias Utilizadas</h2>
-    <ul>
-        <li><strong>Streamlit:</strong> Biblioteca de criação de aplicativos web simples e interativos em Python.</li>
-        <li><strong>Pandas:</strong> Para manipulação de dados e criação de tabelas.</li>
-        <li><strong>YFinance:</strong> Para obter dados históricos de preços de ações.</li>
-        <li><strong>Firebase:</strong> Para armazenar e recuperar comentários dos usuários.</li>
-        <li><strong>Base64:</strong> Para permitir o download de arquivos CSV gerados.</li>
-    </ul>
+Abaixo da tabela, você pode inserir seu nome de usuário e deixar um comentário sobre a ação. Clique em "Salvar Comentário" para registrar sua opinião.
 
-    <h2>Como Executar o App Locamente</h2>
-    <ol>
-        <li>Certifique-se de ter todas as bibliotecas necessárias instaladas. Você pode instalá-las executando o seguinte
-            comando:
-            <pre>pip install streamlit pandas yfinance firebase-admin</pre>
-        </li>
-        <li>Faça o download do arquivo JSON da chave de serviço do Firebase e coloque-o no mesmo diretório do script
-            com o nome <code>avaliacaoagro-707693a85b8c.json</code>.</li>
-        <li>Execute o seguinte comando no terminal para iniciar o aplicativo:
-            <pre>streamlit run nome_do_script.py</pre>
-            Substitua <code>nome_do_script.py</code> pelo nome do seu script.
-        </li>
-        <li>O aplicativo estará acessível em seu navegador local.</li>
-    </ol>
+### Visualize e Exclua Comentários:
 
-    <p>Divirta-se explorando e analisando ações!</p>
+Abaixo do formulário de comentário, você pode visualizar os comentários existentes ordenados por timestamp. Há também um botão "Excluir Comentários" para limpar todos os comentários.
 
-</body>
+## Tecnologias Utilizadas
 
-</html>
+- **Streamlit:** Biblioteca de criação de aplicativos web simples e interativos em Python.
+- **Pandas:** Para manipulação de dados e criação de tabelas.
+- **YFinance:** Para obter dados históricos de preços de ações.
+- **Firebase:** Para armazenar e recuperar comentários dos usuários.
+- **Base64:** Para permitir o download de arquivos CSV gerados.
+
+## Como Executar o App Locamente
+
+1. Certifique-se de ter todas as bibliotecas necessárias instaladas. Você pode instalá-las executando o seguinte comando:
+
+   ```bash
+   pip install streamlit pandas yfinance firebase-admin
+
+2. Faça o download do arquivo JSON da chave de serviço do Firebase e coloque-o no mesmo diretório do script com o nome avaliacaoagro-707693a85b8c.json.
+
+3. Execute o seguinte comando no terminal para iniciar o aplicativo:
+   
+   ```bash
+    streamlit run nome_do_script.py
+
+Substitua nome_do_script.py pelo nome do seu script.
+
+4. O aplicativo estará acessível em seu navegador local.
+
+Divirta-se explorando e analisando ações!
