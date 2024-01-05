@@ -50,4 +50,4 @@ Substitua nome_do_script.py pelo nome do seu script.
 
 4. O aplicativo estará acessível em seu navegador local.
 
-Divirta-se explorando e analisando ações!
+# Divirta-se explorando e analisando ações!
