@@ -12,11 +12,8 @@ import base64  # Biblioteca para codificação e decodificação de dados no for
 # Verificar se o aplicativo Firebase já foi inicializado
 if not firebase_admin._apps:
     # Configurando o SDK do Firebase
-    try:
-        cred = credentials.Certificate(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')) #variável de ambiente para proteger as keys
-        firebase_admin.initialize_app(cred)
-    except ValueError as e:
-        print(f"Erro ao inicializar o aplicativo Firebase: {e}")
+    cred = credentials.Certificate('avaliacaoagro-707693a85b8c.json')
+    firebase_admin.initialize_app(cred)
 
 
 # Função para obter dados da ação
