@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "avaliacaoagro",
+  "private_key_id": "707693a85b8c45de32e247f6a6665a642a990059",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDDkSOPHcdetG0c\ntsJNGQYRS+CRC1PqO7PZndeWbDAkKfDm/mEfm+sqehXE9pcVfiWGrEg+PTfvfd64\nc8JZWck7Aco8iSyyIsGG0xWd22c2Vx2lP25nu8q4qiDZrY5OgOBzmgESkbdCJvNz\nq4GW0G2DtKlCOAC7tSEHF+NAAZIdDgKj8S5Bfe0B+7/LBs7Sw/A9Cbz7QohjxLP5\nTwI+8ut/ebR3J08T0V1G/mPeZH685q0zXHOK9a7r7rEgpU4viYTyPc5EKcu1Pswr\nQlRcrB8JNPIZEF78dnM/1Uk52fQefY2y9lfuPHszEz5ZwRTilrmPPmkh1FN8DuS2\n8kgVYc6vAgMBAAECggEAATeuGP3+d8B3zW3117UILKNkSoLfit3ESN6KsQ0LX65D\nKaz7vc6isCkCaa9/UUrvwN7htEF9T6hg8pUF6Lh+YDeqoqXX+WPuAIDf6ZOsGNKC\nBL1YWpz4rh2hBrnl4Oc8fnu+9faiRW8opNe0ftPdWqyNQTRIDOMbyYeEiql312Z0\nIcLWsR2R3/3KkI7kk02Qlq0Ka0tyIqOnuqOFpM17Z4K11GBFgyoB8LS/DitUSdpq\nIc8O/k2nbVVva5ppNliDfBwxVCxniwerw8/WmIa+tvNWAHVirK90WGrlFI6Xdufa\nlGFVl8F8XFZRjKzJNj1i1S3vjxk+AOvmXawKHYLXQQKBgQD0aOlkLM2bHKND26T/\nwtvKewcvM1bJ0vmqNQ+bSwPGxBpRKIKqNDFgo9Aso6YDu6T3tSmu7aMw4sg9YWaC\nbIi3stUb3zbVYvbuQlOSROQRGICBfQjngTMBaAte9YsBUWEYzYqK8Y0xEBysPUcm\nEQ1YjdeO7O7DkSUFaD2+WKEiTQKBgQDM10jClIZJYwuWEZrStDYE+raSlxB+gx7i\nriEbdHuQB9mHBIpccX6qnvwrXGKV3u7lCgARkF30obUJrwmUEjvjcc6yKiLTif1U\nMfdJZL590UzwvQqFPbE6tSDRg0JizYn0v9P5esDI/iUSviXs64OvtaAdUoL8/cwz\np4yDvqma6wKBgQCCpXHcsnZVa8F6DHbuoGKMoab9fBvwVm5OpX5qLHcgUMMgjt8J\nzEx4tBgbRH8Bj9Rm9NgLQcvx3cfbx6zcGtgaGeYAuBi/h98nDR1PGrQuz0Ih9YxE\n87MoFU2+vNJJKg8VCwn7q5Mlns804qydlI/lvixzogMfVv7LHSWkEgxQIQKBgB0M\nksb1ZS3XG/eGO5yR7e861tVnEvG+Co0/AHbyR+ufEVwyaqS9e6casMw9Z8W1Pc/B\nYU0cWhatMA1Vg1g6Vb/ljdh6XUH+maxtAZKo9NLG8dBaHrnSi+W1dhgAM1PrrhrF\ncXw5ykk2sW89BAfbRmuOqExAPU8/dswEgMrWKRtNAoGBAOmuap/6ITcaWai+iNVI\nvFSjwj+pKq9A6lA/RPWQKLzuKa5cxEkYaeWqiDJKxpJ+Q+3eKOJl+bK7t8M2iJPL\nfoDF13vaN/q2u5NUpRmlnaKiQtMGdrm6OEfY8fGGR7JglFJSdIDroGLItdFL9cY8\nyDumoNMUoQVG5pvxEFNR8x3F\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-kccgo@avaliacaoagro.iam.gserviceaccount.com",
+  "client_id": "115223225968352808272",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-kccgo%40avaliacaoagro.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
