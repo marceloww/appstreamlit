@@ -9,7 +9,7 @@ from firebase_admin import credentials, firestore  # Componentes específicos do
 import base64  # Biblioteca para codificação e decodificação de dados no formato base64(Para permitir o download do arquivo CSV gerado).
 
 
-# Verificar se o aplicativo Firebase já foi inicializado
+# # Verificar se o aplicativo Firebase já foi inicializado
 if not firebase_admin._apps:
     # Configurando o SDK do Firebase
     try:
@@ -17,9 +17,6 @@ if not firebase_admin._apps:
         firebase_admin.initialize_app(cred)
     except ValueError as e:
         print(f"Erro ao inicializar o aplicativo Firebase: {e}")
-
-
-
 
 # Função para obter dados da ação
 def obter_dados_acao(symbol, start_date, end_date):
