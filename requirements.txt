@@ -12,8 +12,8 @@ contourpy==1.2.0
 cryptography==41.0.7
 cycler==0.12.1
 entrypoints==0.4
-firebase==4.0.1
-firebase-admin==6.3.0
+firebase
+firebase-admin
 fonttools==4.47.0
 forex-python==1.8
 gitdb==4.0.11
