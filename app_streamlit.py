@@ -9,22 +9,16 @@ from firebase_admin import credentials, firestore  # Componentes específicos do
 import base64  # Biblioteca para codificação e decodificação de dados no formato base64(Para permitir o download do arquivo CSV gerado).
 
 
-# # # Verificar se o aplicativo Firebase já foi inicializado
-# def inicializar_firebase():
-#     if not firebase_admin._apps:
-#         try:
-#             cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS'))
-#             firebase_admin.initialize_app(cred)
-#         except ValueError as e:
-#             print(f"Erro ao inicializar o aplicativo Firebase: {e}")
-
 # Verificar se o aplicativo Firebase já foi inicializado
-def inicializar_firebase():    
-    try:
-        cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS'))
-        firebase_admin.initialize_app(cred)
-    except ValueError as e:
-        print(f"Erro ao inicializar o aplicativo Firebase: {e}")
+def inicializar_firebase():
+    if not firebase_admin._apps:
+        try:
+            cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS'))
+            firebase_admin.initialize_app(cred)
+        except ValueError as e:
+            print(f"Erro ao inicializar o aplicativo Firebase: {e}")
+
+
 
 
 # Função para obter dados da ação
