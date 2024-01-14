@@ -10,13 +10,13 @@ import base64  # Biblioteca para codificação e decodificação de dados no for
 
 
 # # Verificar se o aplicativo Firebase já foi inicializado
-if not firebase_admin._apps:
-    # Configurando o SDK do Firebase
-    try:
-        cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS'))
-        firebase_admin.initialize_app(cred)
-    except ValueError as e:
-        print(f"Erro ao inicializar o aplicativo Firebase: {e}")
+def inicializar_firebase():
+    if not firebase_admin._apps:
+        try:
+            cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS'))
+            firebase_admin.initialize_app(cred)
+        except ValueError as e:
+            print(f"Erro ao inicializar o aplicativo Firebase: {e}")
 
 # Função para obter dados da ação
 def obter_dados_acao(symbol, start_date, end_date):
@@ -114,6 +114,8 @@ def exibir_e_salvar_comentarios(symbol):
 
 # Página principal
 def main():
+    # Chamar a função para inicializar o Firebase
+    inicializar_firebase()
     st.title("App de Análise de Ações")
 
     # Sidebar com filtros
