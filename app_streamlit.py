@@ -13,7 +13,7 @@ import base64  # Biblioteca para codificação e decodificação de dados no for
 def inicializar_firebase():
     if not firebase_admin._apps:
         try:
-            cred = credentials.Certificate(os.environ.get('FIREBASE_CREDENTIALS'))
+            cred = credentials.Certificate("avaliacaoagro-firebase-adminsdk-kccgo-2f0d9a7f1a.json")
             firebase_admin.initialize_app(cred)
         except ValueError as e:
             print(f"Erro ao inicializar o aplicativo Firebase: {e}")
